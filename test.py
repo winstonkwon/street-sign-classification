@@ -2,14 +2,14 @@ import torch
 import streamlit as st
 import PIL.Image as Image
 import numpy as np
-from model import ConvModelClass
+from model import LinearModelClass
 
 # st.title("A Simple Streamlit Web App")
 st.title("Workshop Traffic Sign Classifier")
 st.write("This is a simple web app to classify traffic signs.")
 
 # Load pytorch model
-model = ConvModelClass()
+model = LinearModelClass()
 model.to("cpu")
 # model.load_state_dict(torch.load("checkpoint.pth", map_location=torch.device('cpu'))['model_state_dict'])
 
