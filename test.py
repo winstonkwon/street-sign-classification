@@ -6,7 +6,7 @@ from model import LinearModelClass
 
 # st.title("A Simple Streamlit Web App")
 st.title("Workshop Traffic Sign Classifier")
-st.write("This is a simple web app to classify traffic signs.")
+st.write("This is a simple web app to classify traffic signs. Upload or take a picture of a traffic sign to try me out!")
 
 # Load pytorch model
 model = LinearModelClass()
